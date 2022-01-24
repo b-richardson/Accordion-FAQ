@@ -1,0 +1,193 @@
+/* Accordian style sheet */
+
+
+
+/* Remove padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: green;
+}
+/* Clear Mods */
+.clear
+    {
+    clear:both;
+}
+
+.right
+    {
+    float: right;
+}
+
+.left
+    {
+    float: left;
+}
+
+/* Document Framework */
+body
+    {
+    font: 62.5%/1.5;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    color: #000000;
+    outline: 1px solid yellow;
+    /* text-align:center; */
+}
+
+#wrapper
+    {
+    width:100%;
+    text-align:left;
+    margin: 0;
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%) 0%, hsla(240, 73%, 65%, 1) 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Typography */
+h1
+    {
+    font-size: 2.2em;
+}
+
+h2
+    {
+    font-size: 2.0em;
+}
+
+h3
+    {
+    font-size: 1.8em;
+}
+
+h4
+    {
+    font-size: 1.6em;
+}
+
+h5
+    {
+    font-size: 1.4em;
+}
+
+p
+    {
+    font-size: 1.2em;
+}
+
+.woman{
+  overflow: hidden;
+  /* outline: 2px solid red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -125px;
+}
+
+
+#womanMobile{
+  width: 75%;
+  /* outline: 1px solid yellow; */
+  margin: 0;
+}
+
+
+
+.card{
+  height: 70%;
+  width: 85%;
+  outline: 1px solid yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  background-image: url("/Users/brianrichardson/Downloads/faq-accordion-card-main/images/bg-pattern-mobile.svg");
+  background-size: 30vh;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-top: 60px;
+}
+
+.card{
+  /* filter: drop-shadow(0 2mm 5mm rgb(10, 10, 10));; */
+}
+/* #shadow{
+  outline: 1px solid red;
+} */
+
+
+.title{
+  outline: 2px solid orange;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  height: 20%;
+}
+
+.title > h1{
+  outline: 1px solid red;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.accordianBody{
+  outline: 1px solid red;
+  font-size: 12px;
+  height: 65%;
+  /* width: 100%; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:black;
+  height: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop Styling Below */
+@media screen and (max-width: 1440px) {
+
+}
