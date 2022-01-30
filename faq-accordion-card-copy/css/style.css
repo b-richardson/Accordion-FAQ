@@ -58,7 +58,7 @@ h1
     {
     font-size: 2.2em;
 }
-
+ 
 h2
     {
     font-size: 2.0em;
@@ -83,6 +83,8 @@ p
     {
     font-size: 1.2em;
 }
+
+
 
 .woman{
   overflow: hidden;
@@ -235,7 +237,13 @@ hr {
 
 
 
+/* Mobile Styling Below */
+@media screen and (min-width: 375px) {
+
+
+ } 
+
 /* Desktop Styling Below */
-@media screen and (max-width: 1440px) {
+@media screen and (max-width:1440px) {
 
 }
